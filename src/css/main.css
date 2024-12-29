@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+body {
+  background: #3853c0;
+  background-image: url(../img/white-snowflakes-png-image-41266-2370.png);
+  background-size: cover;
+}
+header {
+  background: #a30b0b;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Rock 3D", system-ui;
+  color: rgb(230, 175, 175);
+  text-transform: uppercase;
+  padding: 50px;
+}
+
+.text-situation {
+  font-family: "Courier New", Courier, monospace;
+  padding: 50px;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.form {
+  padding-left: 50px;
+}
+
+.img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img img {
+  width: 90px;
+}
+
+.snow {
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px #fff;
+}
+
+.animate {
+  animation: falling 8.5s infinite ease-in;
+}
+
+@keyframes falling {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 1500px;
+    opacity: 0;
+  }
+}
+
+.carte {
+  margin-top: 30px;
+  background: #ead5d5;
+  color: #a30b0b;
+}
